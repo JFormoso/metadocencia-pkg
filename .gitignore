@@ -2,6 +2,8 @@
 .Rhistory
 .RData
 .Ruserdata
-*.Rproj
 /doc/
 /Meta/
+*.Rcheck
+*.tar.gz
+.DS_Store
