@@ -1,0 +1,49 @@
+---
+title: "Título de la Presentación"
+subtitle: "Subtítulo"
+author: ""
+date: today
+---
+
+## Agenda {.agenda}
+
+- Contexto
+- Resultados principales
+- Conclusiones
+- Próximos pasos
+
+## Contexto
+
+Describí el problema o motivación aquí.
+
+::: {.incremental}
+- Punto clave 1
+- Punto clave 2
+- Punto clave 3
+:::
+
+## Resultados
+
+```{r}
+#| label: fig-resultado
+#| fig-cap: "Descripción"
+#| echo: false
+
+```
+
+## Conclusiones
+
+- Conclusión 1
+- Conclusión 2
+
+## Próximos pasos
+
+| Acción | Responsable | Fecha |
+|--------|-------------|-------|
+|        |             |       |
+
+## {.closing}
+
+**¡Gracias!**
+
+[nombre\@metadocencia.org](mailto:nombre@metadocencia.org)

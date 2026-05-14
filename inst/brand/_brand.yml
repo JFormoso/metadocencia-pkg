@@ -1,0 +1,57 @@
+meta:
+  name: MetaDocencia
+
+logo:
+  small: assets/logo.png
+  medium: assets/logo.png
+
+color:
+  palette:
+    azul:       "#00506F"   # Pantone 3025 C — color institucional primario
+    rojo:       "#C83737"   # Pantone 180 C — acento / headings
+    naranja:    "#F77B20"   # Pantone 021 C — acento secundario
+    gris-texto: "#404040"   # texto headings
+    negro:      "#000000"   # texto normal
+    blanco:     "#FFFFFF"
+    azul-80:    "#336F87"
+    azul-60:    "#668FA0"
+    azul-40:    "#99AFB8"
+    azul-20:    "#CCCFD1"
+    rojo-80:    "#D35F5F"
+    rojo-60:    "#DE8787"
+    rojo-40:    "#E9AFAF"
+    rojo-20:    "#F4D7D7"
+    naranja-80: "#F9955A"
+    naranja-60: "#FBAF84"
+    naranja-40: "#FCC9AD"
+    naranja-20: "#FEE4D6"
+    link:       "#1155CC"
+
+  foreground: negro
+  background: blanco
+  primary:    azul
+  secondary:  rojo
+  tertiary:   naranja
+
+typography:
+  fonts:
+    - family: Barlow
+      source: google
+      weight: [400, 700]
+    - family: Open Sans
+      source: google
+      weight: [400, 600]
+
+  base:
+    family: Open Sans
+    size: 12pt
+
+  headings:
+    family: Barlow
+    weight: 700
+
+  monospace:
+    family: JetBrains Mono
+
+  link:
+    color: link

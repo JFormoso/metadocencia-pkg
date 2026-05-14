@@ -1,0 +1,40 @@
+---
+title: "Título del Reporte"
+subtitle: "Subtítulo opcional"
+author: ""
+date: today
+---
+
+## Introducción
+
+Breve descripción del contexto y objetivos del reporte.
+
+## Metodología
+
+Descripción del enfoque metodológico utilizado.
+
+## Resultados
+
+### Primer resultado
+
+```{r}
+#| label: fig-resultado-1
+#| fig-cap: "Descripción del gráfico"
+#| echo: false
+
+```
+
+### Segundo resultado
+
+## Discusión
+
+Interpretación de los resultados en contexto.
+
+## Conclusiones
+
+Síntesis de los hallazgos principales y recomendaciones.
+
+## Referencias {.unnumbered}
+
+::: {#refs}
+:::

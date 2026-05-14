@@ -1,0 +1,19 @@
+project:
+  type: default
+
+brand: _brand.yml
+
+format:
+  pdf:
+    engine: xelatex
+    include-in-header: assets/header.tex
+    toc: true
+    toc-title: "Contenidos"
+    toc-depth: 3
+    number-sections: true
+    fig-align: center
+    fig-cap-location: bottom
+    geometry: margin=2.5cm
+    lang: es
+    date-format: "D [de] MMMM, YYYY"
+    keep-tex: false

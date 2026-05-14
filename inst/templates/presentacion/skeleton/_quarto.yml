@@ -1,0 +1,20 @@
+project:
+  type: default
+
+brand: _brand.yml
+
+format:
+  revealjs:
+    theme: [default, assets/tema-revealjs.scss]
+    slide-number: true
+    logo: assets/logo.png
+    footer: "MetaDocencia — {date}"
+    transition: fade
+    transition-speed: fast
+    controls: true
+    progress: true
+    history: true
+    center: false
+    lang: es
+    date-format: "D [de] MMMM, YYYY"
+    fig-align: center

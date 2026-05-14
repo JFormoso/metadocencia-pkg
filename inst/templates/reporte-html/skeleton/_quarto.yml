@@ -1,0 +1,17 @@
+project:
+  type: default
+
+brand: _brand.yml
+
+format:
+  html:
+    theme: [default, assets/tema-html.scss]
+    toc: true
+    toc-depth: 3
+    toc-title: "Contenidos"
+    number-sections: true
+    fig-align: center
+    fig-cap-location: bottom
+    embed-resources: true
+    lang: es
+    date-format: "D [de] MMMM, YYYY"

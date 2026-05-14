@@ -1,0 +1,23 @@
+Package: metadocencia
+Title: Plantillas institucionales de MetaDocencia para Quarto
+Version: 0.1.0
+Authors@R: 
+    person("MetaDocencia", email = "info@metadocencia.org", role = c("aut", "cre"))
+Description: Proporciona plantillas Quarto con la identidad institucional de
+    MetaDocencia para crear reportes HTML, reportes PDF y presentaciones
+    RevealJS de manera consistente. Incluye funciones para crear nuevos
+    documentos a partir de las plantillas y mantener la identidad visual
+    actualizada en proyectos existentes.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    fs,
+    cli,
+    rstudioapi
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/metadocencia/metadocencia
+BugReports: https://github.com/metadocencia/metadocencia/issues

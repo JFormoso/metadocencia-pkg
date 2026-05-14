@@ -1,0 +1,60 @@
+/*-- scss:defaults --*/
+
+// ============================================================
+// MetaDocencia — tema RevealJS
+// ============================================================
+
+$azul:       #00506F;
+$rojo:       #C83737;
+$naranja:    #F77B20;
+$gris-texto: #404040;
+$blanco:     #FFFFFF;
+
+// Variables Reveal que Quarto expone
+$presentation-font-size-root:  28px;
+$presentation-h1-font-size:    2.2em;
+$presentation-h2-font-size:    1.5em;
+$presentation-h3-font-size:    1.2em;
+$body-color:                   $gris-texto;
+$link-color:                   #1155CC;
+$font-family-sans-serif:       'Open Sans', sans-serif;
+$presentation-heading-font:    'Barlow', sans-serif;
+$presentation-heading-color:   $gris-texto;
+$presentation-heading-font-weight: 700;
+$background-color:             $blanco;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Open+Sans:wght@400;600&family=JetBrains+Mono&display=swap');
+
+.reveal { font-family: 'Open Sans', sans-serif; }
+.reveal h1, .reveal h2, .reveal h3 { font-family: 'Barlow', sans-serif; text-transform: none; }
+.reveal h1 { color: $gris-texto; }
+.reveal h2 { color: $rojo; }
+.reveal h3 { color: $azul; font-weight: 400; }
+
+.reveal code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.82em;
+  background: rgba($azul, 0.08);
+  color: $azul;
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+}
+
+.reveal .title-slide { background-color: $azul; }
+.reveal .title-slide h1 { color: $blanco; border-bottom: 3px solid $naranja; padding-bottom: 0.3em; }
+.reveal .title-slide .subtitle { color: rgba($blanco, 0.85); font-family: 'Barlow', sans-serif; }
+.reveal .title-slide .author, .reveal .title-slide .date { color: rgba($blanco, 0.7); font-size: 0.85em; }
+
+.reveal .progress span { background-color: $naranja; }
+.reveal .slide-number { color: $azul; font-family: 'Barlow', sans-serif; font-size: 0.7em; }
+.reveal .footer { color: rgba($gris-texto, 0.6); font-size: 0.65em; }
+
+.reveal table { font-size: 0.8em; border-collapse: collapse; width: 100%; }
+.reveal thead tr { background-color: $azul; color: $blanco; font-family: 'Barlow', sans-serif; font-weight: 700; }
+.reveal tbody tr:nth-child(even) { background-color: rgba($azul, 0.05); }
+.reveal th, .reveal td { padding: 0.5em 0.8em; border: 1px solid #ddd; }
+
+.closing { background-color: $rojo !important; }
+.closing h1, .closing h2, .closing p { color: $blanco !important; }
