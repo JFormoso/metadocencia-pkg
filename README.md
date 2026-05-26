@@ -9,10 +9,10 @@ Plantillas Quarto con la identidad institucional de [MetaDocencia](https://www.m
 
 ```r
 # Desde GitHub
-remotes::install_github("JFormoso/metadocencia")
+remotes::install_github("JFormoso/metadocencia-pkg")
 
 # O con pak
-pak::pak("JFormoso/metadocencia")
+pak::pak("JFormoso/metadocencia-pkg")
 ```
 
 ## Uso
